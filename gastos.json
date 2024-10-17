@@ -1,0 +1,14 @@
+[
+  {
+    "id": "506d986e-fb63-4fb4-bc54-02a6edddeddb",
+    "roommate": "c68e9da1-c4e1-4c6a-b5ef-e5b5c2c81bab",
+    "description": "baño",
+    "amount": 30
+  },
+  {
+    "id": "533a2b40-3c9c-4115-bad3-13ccfc01d630",
+    "roommate": "c68e9da1-c4e1-4c6a-b5ef-e5b5c2c81bab",
+    "description": "baño",
+    "amount": 30
+  }
+]

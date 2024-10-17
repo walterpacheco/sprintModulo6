@@ -1,0 +1,62 @@
+[
+  {
+    "id": "c68e9da1-c4e1-4c6a-b5ef-e5b5c2c81bab",
+    "name": "Gwendolyn Lucas",
+    "debe": 0,
+    "recibe": 54
+  },
+  {
+    "id": "d0b97ae0-b54a-4541-a232-2bf7473b9ee2",
+    "name": "Gilbert Caldwell",
+    "debe": 6,
+    "recibe": 0
+  },
+  {
+    "id": "960060f0-995d-4363-b578-0e3984fb9c06",
+    "name": "Iya Pogribniy",
+    "debe": 6,
+    "recibe": 0
+  },
+  {
+    "id": "a4e45a77-f6d6-4802-ba62-fd8254fac2ce",
+    "name": "Coşkun Pekkan",
+    "debe": 6,
+    "recibe": 0
+  },
+  {
+    "id": "28983fc2-18ba-49d1-9337-1e8c3a53ffa7",
+    "name": "Jaime Almeida",
+    "debe": 6,
+    "recibe": 0
+  },
+  {
+    "id": "bde32cba-c8c8-4ccb-bac5-fca57420cf72",
+    "name": "Necati Sandalcı",
+    "debe": 6,
+    "recibe": 0
+  },
+  {
+    "id": "4c1b1875-068e-4d97-afea-2188a1cb4185",
+    "name": "Eve Gerard",
+    "debe": 6,
+    "recibe": 0
+  },
+  {
+    "id": "3ae61916-5418-4668-9dde-21e535be7b75",
+    "name": "Okan Akay",
+    "debe": 6,
+    "recibe": 0
+  },
+  {
+    "id": "d07f15c2-378a-486a-b333-1b9f1a31e865",
+    "name": "Hannah Johnson",
+    "debe": 6,
+    "recibe": 0
+  },
+  {
+    "id": "318b144f-3cb5-4288-ab89-66d352d3bb40",
+    "name": "Mateo Saldivar",
+    "debe": 6,
+    "recibe": 0
+  }
+]

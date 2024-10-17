@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Gastos entre Co-habitantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Gastos entre Co-habitantes</h1>
+        <div class="main-content">
+            <div class="roommates-section">
+                <h2>Co-habitantes</h2>
+                <button id="addRoommate">Agregar Co-habitante</button>
+                <table id="roommatesTable">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Debe ($)</th>
+                            <th>Recibe ($)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="roommatesList">
+                        <!-- Co-habitantes serán añadidos dinámicamente -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="expenses-section">
+                <h2>Registrar Nuevo Gasto</h2>
+                <form id="expenseForm">
+                    <select id="roommate" required>
+                        <option value="">Selecciona un Co-habitante</option>
+                        <!-- Opciones serán añadidas dinámicamente -->
+                    </select>
+                    <input type="text" id="description" placeholder="Descripción" required>
+                    <input type="number" id="amount" placeholder="Monto ($)" min="0" step="0.01" required>
+                    <button type="submit">Registrar Gasto</button>
+                </form>
+            </div>
+        </div>
+        <div class="history-section">
+            <h2>Historial de Gastos</h2>
+            <table id="historyTable">
+                <thead>
+                    <tr>
+                        <th>Co-habitante</th>
+                        <th>Descripción</th>
+                        <th>Monto ($)</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="historyList">
+                    <!-- Historial de gastos será añadido dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal para Editar Gasto -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Editar Gasto</h2>
+            <form id="editExpenseForm">
+                <input type="hidden" id="editExpenseId">
+                <select id="editRoommate" required>
+                    <option value="">Selecciona un Co-habitante</option>
+                    <!-- Opciones serán añadidas dinámicamente -->
+                </select>
+                <input type="text" id="editDescription" placeholder="Descripción" required>
+                <input type="number" id="editAmount" placeholder="Monto ($)" min="0" step="0.01" required>
+                <button type="submit">Actualizar Gasto</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
